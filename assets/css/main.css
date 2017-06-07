@@ -21,6 +21,10 @@ body{
 	font-family: 'Montserrat', sans-serif;
 }
 
+.hiden{
+	display: none
+}
+
 .flex-container{
 	display: flex;
 }
@@ -45,14 +49,13 @@ body{
 	color: #fff;
 }
 
-#nav .borde{
+#nav #cuarto{
 	border: 2px solid #fff;
 	border-radius: 15px;
 }
-#nav .borde:hover{
+#nav #cuarto:hover{
 	border: 2px solid #ff00bf;
 }
-
 #nav a:hover{
 	color: #ff00bf;
 }
